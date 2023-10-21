@@ -26,7 +26,7 @@ function Card({ card, onDeleteCard, handleAddTask, handleChangeTheme, handleChan
             <div className='card__text-block'>
               <div className='card__text-header'>
                 <img src={textIcon} alt='иконка' className='card__text-icon'></img>
-                <p className='card__text-title'>Текст</p>
+                <p className='card__text-title'>Тема</p>
               </div>
               <input placeholder='Введите тему' onChange={(evt) => handleChangeTheme(evt, card.id)} ref={refInput} className='card__text-input' type='text' />
             </div>
