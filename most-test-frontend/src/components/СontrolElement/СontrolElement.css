@@ -1,0 +1,22 @@
+.control-element {
+    background-color: bisque;
+    padding: 15px 0 15px 0;
+}
+
+.control-element__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.control-element__event {
+    text-align: center;
+    min-width: 220px;
+    cursor: pointer;
+    transition: all 600ms ease-in-out;
+}
+
+.control-element__event:hover {
+    transform: scale(1.2);
+}

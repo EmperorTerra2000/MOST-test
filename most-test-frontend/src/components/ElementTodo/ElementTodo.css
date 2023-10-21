@@ -1,0 +1,31 @@
+/*todo inputs*/
+.element-todo__todo-block{
+    padding-top: 10px;
+}
+
+.element-todo__todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #363636;
+    overflow: hidden;
+    height: 30px;
+}
+
+.element-todo__todo-index{
+    display: block;
+}
+
+.element-todo__todo-input{
+    width: 95%;
+    margin-left: 2px;
+    border: none;
+    outline: none;
+}
+
+.element-todo__close{
+    width: 21px;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+}

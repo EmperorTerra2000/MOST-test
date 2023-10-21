@@ -1,0 +1,12 @@
+.footer__content {
+  padding-right: 15px;
+  display: flex;
+  min-height: 80px;
+  background-color: rgb(71, 116, 95);
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer__copyright {
+  color: #000000;
+}

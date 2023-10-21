@@ -1,0 +1,11 @@
+.header{
+  min-height: 60px;
+}
+
+.header__content {
+  background-color: rgb(71, 116, 95);
+  min-height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
